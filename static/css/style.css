@@ -168,3 +168,15 @@ header, .navbar {
 .services-box:hover {
     color: #65DAF9;
 }
+
+/* Team */
+
+.card {
+    text-align: center;
+    margin: auto;
+    width: 201px;
+}
+
+.card img {
+    width: 200px;
+}
