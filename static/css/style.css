@@ -266,14 +266,14 @@ header, .navbar {
     margin-bottom: 30px;
 }
 
-/* Contact */
+/* News */
 
-#contact-area {
+#news-area {
     text-align: center;
     background-color: #f9f9f9;
 }
 
-#contact-area p {
+#news-area p {
     font-size: 18px;
     margin-bottom: 40px;
 }
@@ -287,6 +287,7 @@ header, .navbar {
     box-sizing: border-box;
     width: 40%;
     height: 40px;
+    margin-bottom: 50px;
 }
 
 #news-btn {
@@ -315,7 +316,6 @@ header, .navbar {
 
 #call-area .container {
     padding: 25px 100px;
-    margin-top: 50px;
 }
 
 #call-area .row {
@@ -343,4 +343,76 @@ header, .navbar {
     margin-left: 30px;
     width: auto;
     letter-spacing: 2px;
+}
+
+/* Contact */
+
+#contact-area {
+    text-align: center;
+}
+
+.contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #3ec1d5;
+}
+
+.contact-box i {
+    color: #444;
+    border: 1px solid #444;
+    border-radius: 50%;
+    padding: 12px 14px;
+    font-size: 24px;
+}
+
+.contact-box p {
+    margin-top: 20px;
+}
+
+.contact-title {
+    font-weight: bold;
+    color: #3ec1d5;
+}
+
+#msg-box p {
+    font-size: 22px;
+}
+
+#contact-form form .form-area {
+        margin-bottom: 15px!important;
+        border-radius: 0;
+}
+
+#contact-form .main-btn {
+    width: 120px;
+    height: 50px;
+}
+
+#contact-form .main-btn:hover {
+    color: #3ec1d5;
+}
+
+/* Copy */
+
+#copy-area {
+    background-color: #f1f1f1;
+}
+
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p {
+    margin-bottom: 0;
+}
+
+#copy-area .container a {
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+}
+
+#copy-area .container a:hover {
+    color: #3ec1d5;
 }
