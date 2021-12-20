@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    padding: 70px o;;
+    padding: 70px o;
 }
 
 p, li {
@@ -415,4 +415,157 @@ header, .navbar {
 
 #copy-area .container a:hover {
     color: #3ec1d5;
+}
+
+/* Responsive */
+
+/* Tablet */
+@media(max-width: 768px) {
+
+    /* Geral */
+
+    .container {
+        padding: 20px o;
+    }
+
+    /* Slider */
+    #mainSlider .carousel-inner, #mainSlider .carousel-item {
+        height: auto;
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 28px;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    /* About */
+    #about-area img {
+        margin-top: 100px;
+    }
+
+    /* Team */ 
+    .card {
+        width: 171px;
+    }
+    
+    .card img {
+        width: 170px;
+    }
+
+    .card .card-title {
+        font-size: 16px;
+    }
+
+    .card .card-text {
+        font-size: 12px;
+    }
+
+    /* News */
+    #news-area p {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #email-input {
+        width: 70%;
+    }
+
+    #call-area .container {
+        padding: 30px;
+    }
+
+    #call-area p, #call-area #call-btn {
+        font-size: 16px;
+    }
+
+}
+
+/* Smartphone */
+@media(max-width: 425px) {
+
+    /* Slider */
+    #mainSlider {
+        margin-top: 90px;
+    }
+
+    #mainSlider .carousel-caption {
+        top: 5%;
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    #mainSlider .carousel-caption p {
+        display: none;
+    }
+
+    /* About */
+    .main-title {
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    .row {
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+
+    #about-area img {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    /* Team */
+    #team-area .col-md-3 {
+        margin-bottom: 30px;
+        width: 50%;
+    }
+
+    /* Apply */ 
+    #apply-area {
+        height: auto;
+    }
+
+    #company-img {
+        display: none;
+    }
+
+    /* Projects */ 
+    .row .project-box {
+        width: 50%;
+    }
+
+    /* News */
+    #news-area p {
+        font-size: 14px;
+    }
+
+    #email-input {
+        width: 90%;
+    }
+
+    #call-area .container {
+        padding: 10px;
+    }
+
+    #call-area p, #call-area #call-btn {
+        font-size: 14px;
+        letter-spacing: 0;
+        margin: 0;
+        width: 50%;
+    }
+
+    /* Contact */
+    .contact-box {
+        border: none;
+        margin-bottom: 0;
+    }
+
+
 }
